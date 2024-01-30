@@ -15,7 +15,7 @@ def create_data(points, classes):
     return X, y
 
 
-print("here")
+# print("here")
 
 X, y = create_data(200, 3)
 
