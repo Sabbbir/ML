@@ -21,4 +21,3 @@ print("n", n)
 zz = torch.zeros([2,6])
 zz = zz.view([1, 12])
 print(zz)
-
