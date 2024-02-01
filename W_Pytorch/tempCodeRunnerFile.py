@@ -1,2 +1,2 @@
 
-x, y = data[0][0], data[1][0]
+X = torch.rand((28,28))
