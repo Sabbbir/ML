@@ -34,3 +34,6 @@ for epoch in tqdm(range(100000)):
     optimizer.step()
 
 print(loss.data)
+
+hour_val = torch.Tensor([[7.0]])
+print("Predict 7 hour", 7.0, model(hour_val).item() > .5)
